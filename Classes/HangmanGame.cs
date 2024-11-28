@@ -36,7 +36,6 @@ namespace HangmanGame.Classes
                     AnsiConsole.MarkupLine($"[green] Ord att gissa: {wordInProgressString}[/]");
                     AnsiConsole.MarkupLine("[yellow]Ange en bokstav: [/]");
 
-                    Console.WriteLine(wordToGuess);
                     char guess = Console.ReadKey(true).KeyChar;
 
                     if (char.IsLetter(guess))
