@@ -1,0 +1,136 @@
+{
+  "players": [
+    {
+      "Name": "Alice",
+      "GamesPlayed": 5,
+      "GamesWon": 3
+    },
+    {
+      "Name": "Bob",
+      "GamesPlayed": 8,
+      "GamesWon": 5
+    }
+  ],
+  "words": [
+    {
+      "Value": "apple",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "banana",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "cherry",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "grape",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "kiwi",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "lemon",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "orange",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "pear",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "strawberry",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "watermelon",
+      "Category": "Fruits"
+    },
+    {
+      "Value": "car",
+      "Category": "Vehicles"
+    },
+    {
+      "Value": "bicycle",
+      "Category": "Vehicles"
+    },
+    {
+      "Value": "airplane",
+      "Category": "Vehicles"
+    },
+    {
+      "Value": "train",
+      "Category": "Vehicles"
+    },
+    {
+      "Value": "boat",
+      "Category": "Vehicles"
+    },
+    {
+      "Value": "helicopter",
+      "Category": "Vehicles"
+    },
+    {
+      "Value": "dog",
+      "Category": "Animals"
+    },
+    {
+      "Value": "cat",
+      "Category": "Animals"
+    },
+    {
+      "Value": "elephant",
+      "Category": "Animals"
+    },
+    {
+      "Value": "lion",
+      "Category": "Animals"
+    },
+    {
+      "Value": "tiger",
+      "Category": "Animals"
+    },
+    {
+      "Value": "bear",
+      "Category": "Animals"
+    },
+    {
+      "Value": "giraffe",
+      "Category": "Animals"
+    },
+    {
+      "Value": "shark",
+      "Category": "Animals"
+    },
+    {
+      "Value": "school",
+      "Category": "Places"
+    },
+    {
+      "Value": "library",
+      "Category": "Places"
+    },
+    {
+      "Value": "hospital",
+      "Category": "Places"
+    },
+    {
+      "Value": "museum",
+      "Category": "Places"
+    },
+    {
+      "Value": "park",
+      "Category": "Places"
+    },
+    {
+      "Value": "restaurant",
+      "Category": "Places"
+    }
+  ]
+}
