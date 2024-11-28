@@ -24,12 +24,12 @@ namespace HangmanGame.Classes
             string wordToGuess = WordManager.GetRandomWord();
             List<char> wordInProgress = wordToGuess.Select(character => '_').ToList();
             int numberOfWrongGuesses = 0;
-            int MaxNumberOfWrongGuesses = 8;
+            int maxNumberOfWrongGuesses = 8;
             List<char> guessedLetters = new List<char>();
 
             try
             {
-                while (numberOfWrongGuesses < MaxNumberOfWrongGuesses && wordInProgress.Contains('_'))
+                while (numberOfWrongGuesses < maxNumberOfWrongGuesses && wordInProgress.Contains('_'))
                 {
                     string wordInProgressString = string.Join("", wordInProgress);
 
@@ -51,7 +51,7 @@ namespace HangmanGame.Classes
                         else
                         {
                             guessedLetters.Add(guess);
-                            numberOfWrongGuesses = ProcessIfGuessIsRightOrWrong(wordToGuess, wordInProgress, numberOfWrongGuesses, MaxNumberOfWrongGuesses, guess);
+                            numberOfWrongGuesses = ProcessIfGuessIsRightOrWrong(wordToGuess, wordInProgress, numberOfWrongGuesses, maxNumberOfWrongGuesses, guess);
                         }
                     }
                     else
@@ -59,10 +59,10 @@ namespace HangmanGame.Classes
                         Console.Clear();
                         AnsiConsole.MarkupLine("[yellow]Ogiltig inmatning! Vänligen ange en giltig bokstav.[/]");
                     }
-                    AnsiConsole.MarkupLine($"[yellow]Antal gissningar kvar: {MaxNumberOfWrongGuesses - numberOfWrongGuesses}[/]");
+                    AnsiConsole.MarkupLine($"[yellow]Antal gissningar kvar: {maxNumberOfWrongGuesses - numberOfWrongGuesses}[/]");
                 }
 
-                if (numberOfWrongGuesses >= MaxNumberOfWrongGuesses)
+                if (numberOfWrongGuesses >= maxNumberOfWrongGuesses)
                 {
                     SelectedPlayer.GamesPlayed++;
                     AnsiConsole.MarkupLine("[red]Du förlorade spelet. Försök igen![/]");
