@@ -87,8 +87,6 @@ namespace HangmanGame.Classes
                  |
             ========="
             };
-
-            AnsiConsole.MarkupLine("[yellow]Felaktiga gissningar: {0}[/]", wrongGuesses);
             Console.WriteLine();
             AnsiConsole.Write(new Panel(stages[wrongGuesses])
                 .Header("HängaGubben", Justify.Center)
