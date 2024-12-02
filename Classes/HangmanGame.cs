@@ -73,7 +73,6 @@ namespace HangmanGame.Classes
                     }
                     AnsiConsole.MarkupLine($"[yellow]Antal gissningar kvar: {maxNumberOfWrongGuesses - numberOfWrongGuesses}[/]");
                     AnsiConsole.MarkupLine($"[yellow]Felaktiga gissningar: {numberOfWrongGuesses}[/]");
-
                 }
 
                 if (numberOfWrongGuesses >= maxNumberOfWrongGuesses)
