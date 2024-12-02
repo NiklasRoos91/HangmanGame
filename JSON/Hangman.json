@@ -13,124 +13,124 @@
   ],
   "words": [
     {
-      "Value": "apple",
-      "Category": "Fruits"
+      "Value": "äpple",
+      "Category": "Frukter"
     },
     {
-      "Value": "banana",
-      "Category": "Fruits"
+      "Value": "banan",
+      "Category": "Frukter"
     },
     {
-      "Value": "cherry",
-      "Category": "Fruits"
+      "Value": "körsbär",
+      "Category": "Frukter"
     },
     {
-      "Value": "grape",
-      "Category": "Fruits"
+      "Value": "druva",
+      "Category": "Frukter"
     },
     {
       "Value": "kiwi",
-      "Category": "Fruits"
+      "Category": "Frukter"
     },
     {
-      "Value": "lemon",
-      "Category": "Fruits"
+      "Value": "citron",
+      "Category": "Frukter"
     },
     {
-      "Value": "orange",
-      "Category": "Fruits"
+      "Value": "apelsin",
+      "Category": "Frukter"
     },
     {
-      "Value": "pear",
-      "Category": "Fruits"
+      "Value": "päron",
+      "Category": "Frukter"
     },
     {
-      "Value": "strawberry",
-      "Category": "Fruits"
+      "Value": "jordgubbe",
+      "Category": "Frukter"
     },
     {
-      "Value": "watermelon",
-      "Category": "Fruits"
+      "Value": "vattenmelon",
+      "Category": "Frukter"
     },
     {
-      "Value": "car",
-      "Category": "Vehicles"
+      "Value": "bil",
+      "Category": "Fordon"
     },
     {
-      "Value": "bicycle",
-      "Category": "Vehicles"
+      "Value": "cykel",
+      "Category": "Fordon"
     },
     {
-      "Value": "airplane",
-      "Category": "Vehicles"
+      "Value": "flygplan",
+      "Category": "Fordon"
     },
     {
-      "Value": "train",
-      "Category": "Vehicles"
+      "Value": "tåg",
+      "Category": "Fordon"
     },
     {
-      "Value": "boat",
-      "Category": "Vehicles"
+      "Value": "båt",
+      "Category": "Fordon"
     },
     {
-      "Value": "helicopter",
-      "Category": "Vehicles"
+      "Value": "helikopter",
+      "Category": "Fordon"
     },
     {
-      "Value": "dog",
-      "Category": "Animals"
+      "Value": "hund",
+      "Category": "Djur"
     },
     {
-      "Value": "cat",
-      "Category": "Animals"
+      "Value": "katt",
+      "Category": "Djur"
     },
     {
-      "Value": "elephant",
-      "Category": "Animals"
+      "Value": "elefant",
+      "Category": "Djur"
     },
     {
-      "Value": "lion",
-      "Category": "Animals"
+      "Value": "lejon",
+      "Category": "Djur"
     },
     {
       "Value": "tiger",
-      "Category": "Animals"
+      "Category": "Djur"
     },
     {
-      "Value": "bear",
-      "Category": "Animals"
+      "Value": "björn",
+      "Category": "Djur"
     },
     {
-      "Value": "giraffe",
-      "Category": "Animals"
+      "Value": "giraff",
+      "Category": "Djur"
     },
     {
-      "Value": "shark",
-      "Category": "Animals"
+      "Value": "haj",
+      "Category": "Djur"
     },
     {
-      "Value": "school",
-      "Category": "Places"
+      "Value": "skola",
+      "Category": "Platser"
     },
     {
-      "Value": "library",
-      "Category": "Places"
+      "Value": "bibliotek",
+      "Category": "Platser"
     },
     {
-      "Value": "hospital",
-      "Category": "Places"
+      "Value": "sjukhus",
+      "Category": "Platser"
     },
     {
       "Value": "museum",
-      "Category": "Places"
+      "Category": "Platser"
     },
     {
       "Value": "park",
-      "Category": "Places"
+      "Category": "Platser"
     },
     {
-      "Value": "restaurant",
-      "Category": "Places"
+      "Value": "restaurang",
+      "Category": "Platser"
     }
   ]
 }

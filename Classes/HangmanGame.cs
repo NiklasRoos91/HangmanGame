@@ -1,4 +1,4 @@
-﻿using Spectre.Console;
+using Spectre.Console;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +33,7 @@ namespace HangmanGame.Classes
                 {
                     string wordInProgressString = string.Join("", wordInProgress);
 
+                    HangmanVisuals.DrawHangman(numberOfWrongGuesses);
                     AnsiConsole.MarkupLine($"[green] Ord att gissa: {wordInProgressString}[/]");
                     AnsiConsole.MarkupLine("[yellow]Ange en bokstav: [/]");
 
@@ -63,6 +64,7 @@ namespace HangmanGame.Classes
 
                 if (numberOfWrongGuesses >= maxNumberOfWrongGuesses)
                 {
+                    HangmanVisuals.DrawHangman(numberOfWrongGuesses);
                     SelectedPlayer.GamesPlayed++;
                     AnsiConsole.MarkupLine("[red]Du förlorade spelet. Försök igen![/]");
                 }
@@ -99,7 +101,7 @@ namespace HangmanGame.Classes
             {
                 numberOfWrongGuesses++;
                 Console.Clear();
-                AnsiConsole.MarkupLine($"[red]Felaktig gissnig[/]");
+                AnsiConsole.MarkupLine($"[red]Felaktig gissning[/]");
             }
             return numberOfWrongGuesses;
         }
