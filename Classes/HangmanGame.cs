@@ -21,6 +21,7 @@ namespace HangmanGame.Classes
 
         public void StartGame()
         {
+            Console.Clear();
             string wordToGuess = WordManager.GetRandomWord();
             List<char> wordInProgress = wordToGuess.Select(character => '_').ToList();
             int numberOfWrongGuesses = 0;
@@ -35,6 +36,17 @@ namespace HangmanGame.Classes
 
                     HangmanVisuals.DrawHangman(numberOfWrongGuesses);
                     AnsiConsole.MarkupLine($"[green] Ord att gissa: {wordInProgressString}[/]");
+                    
+                    if (guessedLetters.Count > 0)
+                    {
+                        AnsiConsole.Markup("[green]Gissade bokstäver: [/]");
+                        foreach (char character in guessedLetters)
+                        {
+                            AnsiConsole.Markup($"[green]{character}, [/]");
+                        }
+                        Console.WriteLine();
+                    }
+
                     AnsiConsole.MarkupLine("[yellow]Ange en bokstav: [/]");
 
                     char guess = Console.ReadKey(true).KeyChar;
@@ -72,6 +84,7 @@ namespace HangmanGame.Classes
                 {
                     SelectedPlayer.GamesPlayed++;
                     SelectedPlayer.GamesWon++;
+                    HangmanVisuals.ShowVictory();
                     AnsiConsole.MarkupLine($"[green]Grattis! Du vann! Du har gissat ordet: {wordToGuess}[/]");
                 }
 

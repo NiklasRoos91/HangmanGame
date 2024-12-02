@@ -94,6 +94,14 @@ namespace HangmanGame.Classes
                 .Header("HängaGubben", Justify.Center)
                 .BorderColor(Color.Red));
         }
+        public static void ShowVictory()
+        {
+            Console.Clear();
+            Console.WriteLine("    \\o/   Hurra!");
+            Console.WriteLine("     |     ");
+            Console.WriteLine("    / \\   ");
+            Console.WriteLine("   ------  ");
+        }
     }
 }
 
