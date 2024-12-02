@@ -33,7 +33,7 @@ namespace HangmanGame.Classes
                 {
                     string wordInProgressString = string.Join("", wordInProgress);
 
-                    DrawHangman.DrawHangmanInConsole(numberOfWrongGuesses);
+                    HangmanVisuals.DrawHangman(numberOfWrongGuesses);
                     AnsiConsole.MarkupLine($"[green] Ord att gissa: {wordInProgressString}[/]");
                     AnsiConsole.MarkupLine("[yellow]Ange en bokstav: [/]");
 
@@ -64,7 +64,7 @@ namespace HangmanGame.Classes
 
                 if (numberOfWrongGuesses >= maxNumberOfWrongGuesses)
                 {
-                    DrawHangman.DrawHangmanInConsole(numberOfWrongGuesses);
+                    HangmanVisuals.DrawHangman(numberOfWrongGuesses);
                     SelectedPlayer.GamesPlayed++;
                     AnsiConsole.MarkupLine("[red]Du förlorade spelet. Försök igen![/]");
                 }
